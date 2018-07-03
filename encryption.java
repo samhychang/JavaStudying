@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class encryption {
 
 	public static void main(String[] args) {
-		// 
+		// 某個公司採用公用電話傳遞數據，數據是四位的整數，在傳遞過程中是加密的，加密規則如下：
+		// 每位數字都加上5,然後用(個別位數的和)除以10的餘數代替該數字，再將第一位和第四位交換，第二位和第三位交換。
+
+　　　當使用者輸入一數字時，請輸出其加密結果。
 		int iNum1, iNum2, iNum3,iNum4;
 		//int[] thisIsAnIntrray = new int[4];
 		
